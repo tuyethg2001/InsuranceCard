@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+footer {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 10px;
+  background-color: #5c2941;
+  color: white;
+  position: relative;
+  z-index: 9999;
+}
+.footer-container {
+  padding: 10px 120px;
+}
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 0.5px solid rgba(201, 201, 201, 0.2);
+}
+.company-info {
+  width: 20%;
+}
+.company-name {
+  margin: 0;
+  font-size: 12px;
+  padding: 10px 0;
+  font-weight: bold;
+}
+.footer-quote {
+  font-style: italic;
+  margin-bottom: 5px;
+}
+.footer-nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.footer-nav-list a {
+  text-decoration: none;
+  color: white;
+}
+.footer-social-media {
+  width: 12%;
+  text-align: center;
+}
+.social-icons {
+  padding: 10px 0 15px 0;
+  display: flex;
+  justify-content: space-around;
+}
+.social-icons i {
+  font-size: 15px;
+}
+.footer-btn-contact {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  width: 120px;
+  height: 45px;
+  background-color: #fc6376;
+  line-height: 45px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 50px;
+}
+.footer-copyright {
+  padding: 10px 0;
+}
+.footer-copyright {
+  text-align: center;
+}

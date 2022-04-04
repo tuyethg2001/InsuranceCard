@@ -1,0 +1,45 @@
+
+select {
+    padding: 0.2rem 0.7rem;
+    background-color: #FFF9EC;
+    text-align: center;
+}
+
+select:hover, #startDate:hover {
+    cursor: pointer;
+    background-color: #FDC8C0;
+}
+
+#startDate {
+    background-color: #FFF9EC;
+}
+
+section .delivery-content .row {
+    margin-bottom: 2rem;
+}
+
+section .delivery-content input {
+    background-color: #FFF9EC;
+    border: 0.5px solid #000000;
+}
+
+section .delivery-content input:hover {
+    background-color: #FDC8C0;
+}
+
+.submit-renew input{
+    background: #588EB1;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 12rem;
+    height: 3rem;
+    color: #FFF9EC;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.submit-renew input:hover {
+    background: #FD8291;
+    color: #FFF9EC;
+}

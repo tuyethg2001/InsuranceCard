@@ -1,0 +1,118 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 12, 2022, 1:31:45 PM
+    Author     : quynm
+*/
+
+:root{
+    --color1: #ffdccc00;
+    --color2: #fc6376;
+    --color3: #fdb1a6;
+    --color4: #5c2941;
+}
+
+.content_container{
+    margin-bottom: 20px;
+    margin-top: 140px;
+}
+.group-title{
+    display: block;
+    font-size: 24px;
+    margin-top: 20px;
+    padding: 10px;
+}
+.left,
+.right{
+    display: block;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px #bbb;
+}
+
+.left a, 
+.left a:hover{
+    text-decoration: none;
+    color: var(--color2);
+    font-weight: bold;
+}
+
+.left .img-method{
+    height: 40px;
+}
+
+.left .method-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left .method-row .method-desc{
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+.left .invisible-row{
+    display: none;
+}
+
+.left label{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.right{
+    margin-left: 30px;
+}
+.right .content{
+    padding: 15px;
+}
+
+.btnCheckout{
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    padding: 0 5px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    margin: 5px 10px;
+    text-align: center;
+    cursor: pointer;
+    background: green;
+    color: #fff;
+    font-weight: bold;
+    min-width: 120px;
+}
+
+.btnCancel{
+    display: inline-block;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 0 5px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    margin: 5px 10px;
+    text-align: center;
+    cursor: pointer;
+    background: none;
+    color: red;
+    font-weight: bold;
+    min-width: 120px;
+}
+.btnCancel:hover{
+    background: red;
+    color: #fff;
+}
+
+.btnDisable{
+    opacity: 50%;
+    cursor: default;
+}
+
+.btnInvisible{
+    display: none;
+}

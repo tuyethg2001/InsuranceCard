@@ -1,0 +1,119 @@
+body {
+    background: #FFF9EC;
+    color: #5C2941;
+}
+
+.main-container {
+    margin-top: 10em;
+    margin-bottom: 5em;
+    padding-left: 4em;
+    /*margin-right: 1em;*/
+    margin-left: 330px;
+}
+
+.row1 {
+    /*background-color: gray;*/
+    min-height: 13em;
+    margin-bottom: 1em;
+}
+
+.staff-card {
+    background-color: #ffdccc;
+    text-align: center;
+    border-radius: 10px;
+    min-height: 13em;
+    margin-bottom: 1em;
+}
+
+.staff-card .name-card-image {
+    margin: 1vh auto 3vh auto;
+}
+
+.staff-card .name-card-image img {
+    width: 8em;
+}
+
+.row2 .task-container {
+    border-radius: 7px;
+    margin-bottom: 2em;
+}
+
+.above {
+    background-color: #ffdccc;
+    border-radius: 7px 7px 0 0;
+    padding: 0.5em;
+}
+
+.under {
+    background-color: rgba(253, 130, 145, 0.5);
+    border-radius: 0 0 7px 7px;
+}
+
+.under .unholded, .arrow {
+    padding-top: 0.3em;
+}
+
+.unholded a {
+    color: #000;
+}
+
+.unholded a:hover{
+    text-decoration: none;
+    color: buttonshadow;
+
+}
+
+.row2 .under .unhold-number {
+    background-color: #FC6376;
+    border-radius: 7px;
+    max-width: 10.5% !important;
+}
+
+.row3 .under .unhold-number {
+    background-color: #FC6376;
+    border-radius: 7px;
+    max-width: 13% !important;
+}
+
+.row3 .plan {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.row3 .plan .table th:first-child, td:first-child {
+    width: 33em;
+}
+
+.row3 .task-container {
+    margin-bottom: 2em;
+}
+
+.row3 .plan .table thead {
+    background-color: #FD8291;
+}
+
+.row3 .plan .table tbody tr {
+    background-color: rgba(253, 177, 166, 0.7);
+}
+
+table thead th:first-child, tbody td:first-child {
+    border-radius: 7px 0 0 7px;
+}
+
+table thead th:last-child, tbody td:last-child {
+    border-radius: 0 7px 7px 0;
+}
+
+table {
+    border-collapse: separate !important;
+    -webkit-border-horizontal-spacing: 0 !important;
+    -webkit-border-vertical-spacing: 3px !important;
+}
+
+table thead a:hover, tbody tr td a:hover {
+    text-decoration: none;
+}
+
+table tbody tr td a {
+    font-size: 1.3em;
+}

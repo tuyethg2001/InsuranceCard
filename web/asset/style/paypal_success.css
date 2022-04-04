@@ -1,0 +1,65 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 12, 2022, 10:48:38 PM
+    Author     : quynm
+*/
+
+.content_container{
+    margin-top: 180px;
+    margin-bottom: 40px;
+    min-height: 60vh;
+    font-family: Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.title-container{
+    text-align: center;
+}
+
+.success-icon{
+    width: 300px;
+}
+
+.title{
+    color: #fc6376;
+}
+
+.sub-title{
+    font-size: 20px;
+}
+.receipt-detail{
+    display: block;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px #bbb;
+    min-height: 50vh;
+}
+table{
+    display: block;
+    padding: 10px;
+}
+td{
+    padding: 8px 0;
+}
+
+.btn-home{
+    text-decoration: none;
+    color: green;
+    background: none;
+    display: inline-block;
+    border: 1px solid green;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 50px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.btn-home:hover{
+    text-decoration: none;
+    color: white;
+    background: green;
+}

@@ -1,0 +1,297 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 24, 2022, 9:58:49 PM
+    Author     : quynm
+*/
+
+:root{
+    --color1: #ffdccc00;
+    --color2: #fdb1a6;
+    --color3: #fc6376;
+    --color4: #5c2941;
+}
+
+input,
+select{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #aaa;
+    padding: 8px 5px;
+    resize: none;
+    margin-right: 10px;
+}
+
+input:focus,
+select:focus{
+    border-bottom: 1px solid var(--color2);
+    outline: none;
+}
+
+
+.mess-box {
+  display: none;
+  align-items: center;
+  padding: 20px 15px;
+  border-radius: 4px;
+  margin: 0 60px 30px 60px;
+}
+
+.mess-box--success {
+  background-color: #dff0d8;
+  border: 1px solid #d6e9c6;
+  color: #3c763d;
+}
+
+.mess-box__icon {
+  margin-left: 40px;
+  margin-right: 20px;
+}
+
+.mess-box__mess {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.errorMessage{
+    color: red;
+}
+
+body {
+  background-color: #f8f8f8;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container {
+  margin-top: 73px;
+  margin-left: 290px;
+  padding: 35px 45px 50px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e1dede;
+  margin-bottom: 30px;
+  padding-bottom: 6px;
+}
+
+.header__heading {
+  font-weight: 400;
+}
+
+.header__btn {
+  display: flex;
+}
+
+.btn {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  min-width: 100px;
+  flex-wrap: wrap;
+  gap: 5px;
+  border-radius: 3px;
+  border: none;
+}
+
+.btn + .btn {
+  margin-left: 20px;
+}
+
+.btn__icon {
+  width: 18px;
+}
+
+.btn--success {
+  background-color: #63c565;
+  color: #fff;
+  transition: all 0.2s;
+}
+
+.btn--success:hover {
+  background-color: #498f4a;
+  color: #fff;
+  transition: all 0.2s;
+}
+
+.btn--warning {
+  background-color: #f9c733;
+  color: #fff;
+  transition: all 0.2s;
+}
+
+.btn--warning:hover {
+  background-color: #d9ab1f;
+  color: #fff;
+  transition: all 0.2s;
+}
+
+.btn--primary {
+  background-color: #5bc0de;
+  color: #fff;
+  transition: all 0.2s;
+}
+
+.btn--primary:hover {
+  background-color: #1b5daf;
+}
+
+.btn--danger {
+  background-color: #d9534f;
+  color: #fff;
+  transition: all 0.2s;
+}
+
+.btn--danger:hover {
+  background-color: #ac3c39;
+}
+
+.btn--disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.btn__text {
+  font-size: 18px;
+}
+
+.section {
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #e1dede;
+}
+
+.section + .section {
+  margin-top: 30px;
+}
+
+.section__heading {
+  background-color: #fc6376;
+  color: #fff;
+  font-weight: 400;
+  padding: 8px 0 8px 30px;
+  border-radius: 4px 4px 0 0;
+}
+
+.section__main {
+  font-size: 18px;
+  padding: 20px 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section__item {
+  display: flex;
+  flex: 50%;
+  margin-bottom: 12px;
+}
+
+.section__title {
+  font-weight: 500;
+  min-width: 180px;
+}
+
+.section__text {
+  color: #555;
+}
+
+.section__img {
+  width: 100%;
+}
+
+.section__right,
+.section__left {
+  flex: 50%;
+}
+
+.section__right .section__item {
+  flex-direction: column;
+}
+
+.section__right .section__title {
+  margin-bottom: 12px;
+}
+
+.section__table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+  padding: 20px 30px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.section__table tbody td,
+.section__table thead th {
+  position: relative;
+}
+
+.section__table th {
+  font-weight: 500;
+  border-bottom: 1px solid #dcdada;
+  padding: 10px 5px;
+  overflow: hidden;
+}
+
+.section__table td {
+  border-bottom: 1px solid #dcdada;
+  padding: 5px;
+  transition: all 0.2s;
+  color: #555;
+}
+
+.section__table tbody td:hover::before {
+  background-color: #f4efef;
+  content: "\00a0";
+  height: 100%;
+  left: -5000px;
+  position: absolute;
+  top: 0;
+  width: 10000px;
+  z-index: -1;
+}
+
+.section__table tbody td:hover::after {
+  background-color: #f4efef;
+  content: "\00a0";
+  height: 10000px;
+  left: 0;
+  position: absolute;
+  top: -5000px;
+  width: 100%;
+  z-index: -1;
+}
+
+.section__table tr td:hover {
+  background-color: #c3c3c1;
+  color: #fff;
+}
+
+.table-btn {
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #acacac;
+  border-radius: 15px;
+  padding: 3px;
+  font-size: 16px;
+  min-width: 45px;
+  display: inline-block;
+  text-align: center;
+}
+
+.table-btn:hover {
+  background-color: #64334a;
+  color: #fff;
+}
+
+.section__table tr td.not-hightlight:hover {
+  background-color: #f4efef;
+}

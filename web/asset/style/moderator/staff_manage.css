@@ -1,0 +1,160 @@
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #5C2941;
+}
+
+section {
+    margin: 6rem 5rem 0 22rem;
+}
+
+section .title {
+    margin-bottom: 1rem;
+    margin-left: 5rem;
+}
+
+section .label-title {
+    margin-bottom: 2rem;
+}
+
+.table th {
+    font-size: 17px;
+}
+
+.table td {
+    border-bottom: 0.5px solid #000000;
+}
+
+.table thead {
+    background-color: rgba(255, 124, 140, 0.8);
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.table tr:nth-child(even) {
+    background-color: #FFF9EC;
+}
+
+.pagging {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: right;
+}
+
+.table .id {
+    max-width: 4rem;
+
+}
+
+.table .name {
+    max-width: 10rem;
+}
+
+.table .status {
+    max-width: 4rem;
+}  
+
+.table .note, .phone {
+    max-width: 6rem;
+}
+
+.table .id, .phone, .email {
+    text-align: center;
+    word-break: break-all;
+}
+
+.pagging .page {
+    background: #FA7C7C;
+    color: #FFFFFF;
+    padding: 0.1rem 0.6rem;
+    border-radius: 30px;
+}
+
+.pagging a, span {
+    color: #000000;
+    margin-left: 0.75rem;
+}
+
+.pagging .move:hover {
+    color: #f1273a;
+}
+
+.pagging .page-num:hover {
+    font-size: 1.2rem;
+    transition: 0.3s ease;
+}
+
+section .row .btn {
+    text-align: right;
+    margin-right: 1rem;
+}
+
+.btn-add {
+    background: #549bc8;
+    color: #FFF9EC;
+    border-radius: 10px;
+    padding: 0.75rem 2rem;
+    font-size: 18px;
+}
+
+.btn-add:hover {
+    background-color: #2f5f7e;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.table .name-link {
+    color: #FB6376;
+}
+
+.table .name-link:hover {
+    transition: 0.2s ease;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+section .filter {
+    margin-bottom: 1.5rem;
+    margin-left: 5rem;
+    font-weight: 500;
+}
+
+.filter .filter-title {
+    margin-left: 7rem;
+}
+
+.filter input {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.65);
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+}
+
+.filter input:focus {
+    outline: 0;
+    border-bottom: 2px solid #FC6376;
+    color: #5C2941;
+}
+
+.filter-btn {
+    width: 5rem;
+    height: 2rem;
+    background-color: #549bc8;
+    color: #FFF9EC;
+}
+
+.filter-btn:hover {
+    background-color: #2f5f7e;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.filter-radio {
+    margin-left: 0.75rem;
+} 
+
+.status .iconify {
+    width: 0.65rem;
+    height: 0.65rem;
+}

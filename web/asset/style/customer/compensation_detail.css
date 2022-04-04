@@ -1,0 +1,95 @@
+body {
+    background-color: #fffbf4 !important;
+  }
+  main {
+    margin-top: 10em;
+    margin-bottom: 5em;
+  }
+  .compensation-header {
+    margin-left: 3em;
+    margin-bottom: 2em;
+  }
+  .custom-container {
+    margin-left: 4em;
+    margin-right: 4em;
+  }
+  
+  .title-card-text {
+    color: #fff;
+    background-color: #fc6376;
+    padding: 10px;
+    font-weight: 400;
+  }
+  .content-card {
+    display: contents;
+  }
+  .content-card-table {
+    margin: 2em 3em;
+  }
+  .content-card-table th {
+    width: 190px;
+  }
+  .compensation-card {
+    background-color: white;
+  }
+  .compensation-input {
+    background-color: rgba(255, 220, 204, 0.5);
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 5px 10px;
+  }
+  input.compensation-input {
+    width: 16em;
+  }
+  .commitment {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2em;
+  }
+  .commitment input {
+    margin: 5px;
+  }
+  
+  .commitment span {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 26px;
+  }
+  .compensation-submit {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2em;
+  }
+  
+  .compensation-submit button {
+    background: rgba(252, 99, 118, 0.8);
+    border-radius: 50px;
+    color: #fff;
+    border: none;
+    padding: 20px 60px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .attachment-file-name{
+      margin-right: 10px;
+  }
+  .import-attachment-button {
+    border: none;
+    background: #c4c4c4;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 3px 15px;
+    margin: 0 5px;
+  }
+  #button-submit.disabled {
+    background: #c4c4c4;
+  }
+  
+  .message-block {
+    margin: 1em;
+  }
+  
+

@@ -1,0 +1,100 @@
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: #5C2941;
+    /*overflow-x: hidden;*/
+}
+
+section .func-label {
+    margin: 7rem 0 3rem 23rem;
+    font-weight: bold;
+}
+
+section .container {
+    margin-left: 23rem;
+}
+
+.container .row .attribute {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    margin-left: 5rem;
+}
+
+.container .row .input {
+    margin-bottom: 3rem;
+    margin-left: 5rem;
+}
+
+.container .row .input input {
+    width: 20rem;
+    height: 3.5rem;
+    background: #FFF9EC;
+    border: 1.75px solid #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding-left: 1.5rem;
+}
+
+.container .row span {
+    color: red;
+}
+
+.btn-input {
+    margin: 2rem 0 3rem 24.75rem;
+}
+
+.btn-input .btn {
+    width: 7rem;
+    height: 3rem;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.container .btn-input .create {
+    background: #FC6376;
+    margin-right: 1rem;
+    color: #FFFFFF;
+}
+
+.container .btn-input .cancel {
+    background: #C4C4C4;
+    color: #5C2941;
+}
+
+::placeholder {
+    color: rgba(0, 0, 0, 0.4);
+    font-style: italic;
+}
+
+.container .btn-input .create:hover {
+    color: green;
+}
+
+.container .btn-input .cancel:hover {
+    color: #FEE7DA;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    /*border: none;*/
+    background: #FFF9EC;
+    border-radius: 10px;
+    -webkit-text-fill-color: #000000;
+    transition: background-color 5000s;
+}
+
+.container .msg {
+    margin-left: 27.5rem;
+    display: inline;
+    color: #A94442; 
+    transition: 0.5s ease;
+}

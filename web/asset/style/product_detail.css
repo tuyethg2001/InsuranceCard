@@ -1,0 +1,46 @@
+body {
+    background-color: #FFF9EC !important;
+    color: #5C2941; 
+}
+
+.product-card {
+    background-color: #E5E5E5 !important;
+    border-radius: 2em !important;
+}
+
+.product-card .card-img-top {
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 2em 2em 0 0;
+}
+
+.product-card .card-title {
+    text-align: center ;
+    font-size: 1.5rem;
+}
+
+.product-card .card-text {
+    text-align: justify;
+}
+
+.product-card .product-update-time {
+    text-align: center;
+}
+
+.product-status {
+    margin-bottom: 3em;
+}
+
+.product-status h2, .product-status h3 {
+    text-align: center;
+}
+
+.product-content {
+    overflow: auto;
+    height: 30em;
+    margin-bottom: 5em;
+}
+
+.product-price {
+    color: #E02A2A;
+}

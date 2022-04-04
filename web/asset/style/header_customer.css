@@ -1,0 +1,145 @@
+/* Style the list */
+
+:root{
+    --color1: #ffdccc00;
+    --color2: #fdb1a6;
+    --color3: #fc6376;
+    --color4: #5c2941;
+}
+body {
+    margin: 0;
+}
+
+.header_customer {
+    /* background-color: antiquewhite; */
+    background-color: white;
+    background-image: linear-gradient(to bottom, var(--color1), var(--color2));
+    position: sticky;
+    top: 0;
+    box-shadow: 0 1px 10px 1px gray;
+}
+
+.header-table {
+    display: table;
+    width: 100%;
+}
+.header-element {
+    display: table-cell;
+    vertical-align: middle;
+}
+.header-element.logo {
+    /* padding-left: 5em; */
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+    padding-left: 3em;
+}
+.logo-group {
+    justify-content: space-between;
+    padding-right: 20px;
+    text-align: center;
+}
+.logo-icon {
+    display: block;
+    margin: auto;
+}
+.user-role img{
+    margin: 5px
+}
+
+.header-element ul.breadcrumb a.active {
+    color: var(--color3);
+}
+.header-element ul.breadcrumb {
+    padding-top: 1.5em;
+    /* margin-right: 5em; */
+    list-style: none;
+    padding-inline-start: 0px;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+/* Display list items side by side */
+.header-element ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+.header-element ul.breadcrumb li + li:before {
+    padding: 20px;
+    color: var(--color4);
+    content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+.header-element ul.breadcrumb li a {
+    color: var(--color4);
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Add a color on mouse-over */
+.header-element ul.breadcrumb li a:hover {
+    color: var(--color3);
+    text-decoration: none;
+}
+.header-element .user-role {
+    margin-right: 3em;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.header-element .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.header-element .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--color4);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    left: -2.5em ;
+    border-radius: 10px;
+}
+
+.header-element .dropdown-content .dropdown-title {
+    color: whitesmoke;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-transform: none;
+    border-radius: 10px;
+}
+
+.header-element .dropdown-content a:hover {
+    background-color: var(--color4);
+
+}
+
+.header-element .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.logout-button {
+    font-size: 30px;
+    vertical-align: middle;
+    color: #5C2941;
+    margin: 10px;
+}
+a.dropdown-item.active {
+    background: none !important;
+}
+
+.history-dropdown .dropdown-item:active {
+    background: none;
+}

@@ -1,0 +1,132 @@
+main {
+  margin-left: 20em;
+  margin-top: 10em;
+}
+
+.custom-card {
+  background-color: rgba(70, 159, 227, 0.8);
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+  width: 20em;
+  margin-bottom: 1em;
+}
+
+.custom-card-text {
+  text-align: center;
+  font-size: 1em;
+  margin: 1em;
+}
+
+.custom-card-title {
+  margin-bottom: 20px;
+}
+
+.custom-card-icon {
+  text-align: center;
+  font-size: 4em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.custom-card-rank {
+  border-radius: 10px;
+  background-color: rgba(93, 93, 93, 0.7);
+  margin: 2em;
+}
+
+/* .numberCircle {
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    padding: 10px;
+    background: #fff;
+    border: 3px solid #000;
+    color: #000;
+    text-align: center;
+} */
+
+.numberCircle {
+  width: 250px;
+  height: 250px;
+  background-color: #40a977;
+  border-radius: 50%;
+  float: left;
+  -webkit-shape-outside: circle();
+  shape-outside: circle();
+}
+
+.total-number {
+  color: #5c2941;
+  font-size: 3em;
+  background-color: #f3d38d;
+  width: fit-content;
+  padding: 10px 20px;
+  border-radius: 50%;
+  font-weight: 700;
+  margin: 0.3em;
+}
+
+.total-title-align {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.total-title {
+  text-align: right;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff9ec !important;
+}
+
+.table-rank {
+  color: #fff9ec;
+  border-top: 2px solid black;
+}
+
+.table-rank-head {
+  color: white;
+  background-color: rgba(78, 75, 75, 0.5);
+}
+
+.table-rank tr th {
+  text-align: center;
+}
+
+.table-rank tr th:first-child {
+  width: 80px;
+}
+
+.icon-rank {
+  height: 40px;
+  /* margin-top: 10px; */
+  margin-right: 10px;
+}
+
+.icon-triangle {
+  margin-top: 5px;
+  height: 30px;
+  margin-bottom: 5px;
+}
+.rank-value {
+  border-right: 2px solid black;
+}
+
+.rank-title {
+  line-height: 40px;
+}
+
+.rank-title.rank-userphone {
+  text-align: center;
+  border-left: 2px solid black;
+}
+
+.dashboard-chard {
+    margin: 1em;
+}
